@@ -1,2 +1,2 @@
 # stellar
-A really simple design system
+I wanted to learn more about design systems, so I'm creating one.
