@@ -1,0 +1,12 @@
+.container {
+  padding-left: 8 * $u;
+  padding-right: 8 * $u;
+  max-width: 136 * $u;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding-left: 2 * $u;
+    padding-right: 2 * $u;
+    overflow: hidden;
+  }
+}
