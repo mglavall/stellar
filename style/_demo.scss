@@ -10,9 +10,6 @@
   font-weight: 600;
 }
 
-.color-block {
-}
-
 .color-rectangle {
   border: 1px solid black;
   height: 84px;
@@ -25,4 +22,9 @@
   font-size: 70px;
   font-family: "Radley", serif;
   color: $orange;
+}
+
+.demo-width {
+  height: 2 * $u;
+  background-color: transparentize($color: $grey, $amount: 0.3);
 }

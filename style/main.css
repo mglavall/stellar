@@ -441,6 +441,11 @@ html {
   color: #fca311;
 }
 
+.demo-width {
+  height: 16px;
+  background-color: rgba(229, 229, 229, 0.7);
+}
+
 .size-1 {
   font-size: 24px;
   line-height: 32px;
@@ -461,6 +466,10 @@ html {
   padding: 8px 24px;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #fdc05d;
 }
 
 .btn-secondary {
@@ -468,6 +477,28 @@ html {
   padding: 8px 24px;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-field {
+  height: 40px;
+  padding: 0 12px;
+  width: 256px;
+  border: 2px solid #e5e5e5;
+  margin: 0;
+  border-radius: 2px;
+}
+.input-field:focus {
+  border-color: #fca311;
+  outline: none;
+}
+
+.input-field-sm {
+  width: 128px;
+}
+
+.input-field-lg {
+  width: 256px;
 }
 
 /*# sourceMappingURL=main.css.map */

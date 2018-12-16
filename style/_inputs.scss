@@ -1,0 +1,21 @@
+.input-field {
+  height: 5 * $u;
+  padding: 0 1.5 * $u;
+  width: 32 * $u;
+  border: 2px solid $grey;
+  margin: 0;
+  border-radius: 4px;
+
+  &:focus {
+    border-color: $orange;
+    outline: none;
+  }
+}
+
+.input-field-sm {
+  width: 16 * $u;
+}
+
+.input-field-lg {
+  width: 32 * $u;
+}

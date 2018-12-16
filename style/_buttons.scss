@@ -3,6 +3,10 @@
   padding: 1 * $u 3 * $u;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: lighten($orange, 15%);
+  }
 }
 
 .btn-secondary {
@@ -10,4 +14,5 @@
   padding: 1 * $u 3 * $u;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
