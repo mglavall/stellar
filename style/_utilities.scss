@@ -2,20 +2,19 @@
   color: $orange;
 }
 
-.font-primary{
+.font-primary {
   font-family: "Radley", serif;
-  
 }
 
-.background-orange{
+.background-orange {
   background-color: $orange;
 }
 
-.background-grey{
+.background-grey {
   background-color: $grey;
 }
 
-.background-blue{
+.background-blue {
   background-color: $blue;
 }
 
@@ -135,6 +134,9 @@
 .pr-1 {
   padding-right: $u;
 }
+.p-1 {
+  padding: 1 * $u;
+}
 
 .pt-2 {
   padding-top: 2 * $u;
@@ -147,6 +149,9 @@
 }
 .pr-2 {
   padding-right: 2 * $u;
+}
+.p-2 {
+  padding: 2 * $u;
 }
 
 .pt-3 {
@@ -161,6 +166,9 @@
 .pr-3 {
   padding-right: 3 * $u;
 }
+.p-3 {
+  padding: 3 * $u;
+}
 
 .pt-4 {
   padding-top: 4 * $u;
@@ -173,6 +181,9 @@
 }
 .pr-4 {
   padding-right: 4 * $u;
+}
+.p-4 {
+  padding: 4 * $u;
 }
 
 .pt-5 {
@@ -187,6 +198,9 @@
 .pr-5 {
   padding-right: 5 * $u;
 }
+.p-5 {
+  padding: 5 * $u;
+}
 
 .pt-6 {
   padding-top: 6 * $u;
@@ -199,6 +213,9 @@
 }
 .pr-6 {
   padding-right: 6 * $u;
+}
+.p-6 {
+  padding: 6 * $u;
 }
 
 .pt-7 {
@@ -213,6 +230,9 @@
 .pr-7 {
   padding-right: 7 * $u;
 }
+.p-7 {
+  padding: 7 * $u;
+}
 
 .pt-8 {
   padding-top: 8 * $u;
@@ -225,6 +245,9 @@
 }
 .pr-8 {
   padding-right: 8 * $u;
+}
+.p-8 {
+  padding: 8 * $u;
 }
 
 .w-sm {
@@ -259,18 +282,42 @@
 
 // Column Spacings
 
-.col-1  { width: (100% / (12 / 1)) }
-.col-2  { width: (100% / (12 / 2)) }
-.col-3  { width: (100% / (12 / 3)) }
-.col-4  { width: (100% / (12 / 4)) }
-.col-5  { width: (100% / (12 / 5)) }
-.col-6  { width: (100% / (12 / 6)) }
-.col-7  { width: (100% / (12 / 7)) }
-.col-8  { width: (100% / (12 / 8)) }
-.col-9  { width: (100% / (12 / 9)) }
-.col-10 { width: (100% / (12 / 10)) }
-.col-11 { width: (100% / (12 / 11)) }
-.col-12 { width: (100% / (12 / 12)) }
+.col-1 {
+  width: (100% / (12 / 1));
+}
+.col-2 {
+  width: (100% / (12 / 2));
+}
+.col-3 {
+  width: (100% / (12 / 3));
+}
+.col-4 {
+  width: (100% / (12 / 4));
+}
+.col-5 {
+  width: (100% / (12 / 5));
+}
+.col-6 {
+  width: (100% / (12 / 6));
+}
+.col-7 {
+  width: (100% / (12 / 7));
+}
+.col-8 {
+  width: (100% / (12 / 8));
+}
+.col-9 {
+  width: (100% / (12 / 9));
+}
+.col-10 {
+  width: (100% / (12 / 10));
+}
+.col-11 {
+  width: (100% / (12 / 11));
+}
+.col-12 {
+  width: (100% / (12 / 12));
+}
 
 .d-flex {
   display: flex;
